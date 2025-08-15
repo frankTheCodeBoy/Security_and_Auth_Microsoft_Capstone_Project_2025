@@ -1,0 +1,10 @@
+<form action="/submit" method="post" autocomplete="off">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" 
+           pattern="^[A-Za-z0-9_]{3,20}$" maxlength="20" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" maxlength="100" required>
+    
+    <button type="submit">Submit</button>
+</form>
